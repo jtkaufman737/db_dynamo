@@ -1,0 +1,69 @@
+p, div, span, li {
+  font-family: 'Fira Code', monospace;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Audiowide', cursive;
+  color:black;
+}
+
+h1 {
+  font-size:2rem;
+}
+
+img.img-logo-main {
+  margin:auto;
+  display:flex;
+  justify-content:space-around;
+  height:15rem;
+}
+
+div.App {
+  align-items:center;
+}
+
+div.App > * {
+  padding:1rem;
+}
+
+div.App:nth-child(1) {
+  height:100vh;
+  width:100vw;
+  float:right;
+}
+
+div.componentWrapper {
+  width:calc(100vw - 175px);
+  margin-right:0px;
+  float:right;
+  height:100vh;
+  padding:3rem;
+}
+
+h1.center {
+  display:flex;
+  justify-content:space-around;
+  margin-top:1rem;
+}
+
+html, body, div#root {
+  height:100vh;
+  width:100vw;
+  margin:0px !important;
+}
+
+div.main {
+  margin:2rem;
+}
+
+div.main p {
+  margin-top:2rem;
+}
+
+div.main ul {
+  margin-left:2rem;
+}
+
+div.main ul li {
+  margin:.5rem;
+}

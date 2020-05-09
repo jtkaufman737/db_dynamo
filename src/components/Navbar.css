@@ -1,0 +1,23 @@
+aside.menu {
+  width:175px;
+  position:absolute;
+  background-color:black;
+  height:100vh;
+}
+
+li.orange-link a {
+  color: #ffd2a1;
+  padding-left:10px;
+}
+
+a.menu-label {
+  color:white;
+  font-weight:550;
+  line-height:2;
+  display:block;
+}
+
+a.menu-label:hover {
+  color:black;
+  background-color:white;
+}
